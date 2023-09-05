@@ -1,6 +1,8 @@
 // vite.config.js
 export default {
     // Other Vite config options...
+    base: '/GGH-Test',
+    plugins : [],
     build: {
       rollupOptions: {
         // Specify multiple entry points for HTML files
